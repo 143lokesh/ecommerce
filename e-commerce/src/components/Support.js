@@ -41,7 +41,7 @@ const Support = () => {
           <p className=" text-slate-500  font-medium text-2xl">{productDisplay.tag}</p>
           <p className=" font-bold md:text-2xl">
             <span className="text-red-500 ">₹ </span>
-            <span>{productDisplay.price.split(' ')[1]}</span>
+            <span>{productDisplay.price}</span>
           </p>
           <div className="flex gap-3">
           <button  className="bg-yellow-500 py-1 mt-2 rounded hover:bg-yellow-600 min-w-[100px]">Buy</button>
